@@ -35,7 +35,7 @@ class Database:
 
     # 关闭数据库
     def close(self):
-        self.cur.close()
+        # self.cur.close()
         self.db.close()
 
     # 处理注册
